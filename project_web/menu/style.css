@@ -1,0 +1,61 @@
+*{
+    font-family: "Poppins",Times,serif;
+}
+body{
+    background:rgb(222, 215, 215);
+}
+.card{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(10px); 
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 60px;
+    gap: 20px;
+    max-width: 450px;
+}
+.card__content--left{
+    flex: 1;
+}
+.card__content--right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.card__content--left img{
+    width: 250px;
+    border-radius: 10px;
+    height: 200px;
+}
+.food__title{
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.card__content--right span{
+    margin-left: 0;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.info__button{
+    color: white;
+    background: orange;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info__button:hover{
+    color: #575757;
+    background: rgb(206, 187, 151);
+}
+.card__container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+}
+.card__content--right i{
+    color: #f8d34a;
+}
